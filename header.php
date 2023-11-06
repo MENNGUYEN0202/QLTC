@@ -36,7 +36,7 @@
                 <li class="nav-item dropdown">
                     <button class="btn btn-outline-secondary ct-font">Chức Năng Khác </button>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Lập Kế Hoạch Dự Chi</a>
                         <a class="dropdown-item" href="#">Another action</a>
                         <!-- <div class="dropdown-divider"></div> -->
                         <a class="dropdown-item" href="#">Something else here</a>

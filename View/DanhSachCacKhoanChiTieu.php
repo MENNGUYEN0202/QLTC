@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/header.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
     <title>Document</title>
     <style>
         .container{
@@ -55,64 +54,55 @@
         <section>
             <div class="row d-flex align-items-center justify-content-center">
                 <div class="col-md-8 d-flex align-items-center justify-content-center content mx-auto">
-                    <p class="bg-primary p-2">Danh Sách Kế Hoạch Dự Chi</p>
+                    <p class="bg-primary p-2">Danh Sách Các Khoản Chi Tiêu</p>
                 </div>
             </div>
             <div class="container">
             <table class="table table-bordered">
   <thead>
     <tr>
-      <th scope="col">Tên</th>
+      <th scope="col">Hạng Mục</th>
       <th scope="col">Số Tiền </th>
       <th scope="col">Thời Gian</th>
+      <th scope="col">Loại Tài Khoản </th>
       <th scope="col">Hoạt Động</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td scope="row">Đi Đà Lạt</td>
+      <td scope="row">Ăn Uống</td>
       <td>4 500 000</td>
       <td>14/12/2023 - 13/04/2023</td>
-      <td>
-        <button type="button" data-toggle="modal" class="rs-btn" data-target="#exampleModalCenter">Sửa </button> /
-        <button type="button" data-toggle="modal" class="rs-btn" data-target="#exampleModalCenter">xóa </button>
-        </td>
+      <td>Thẻ</td>
+      <td>Sửa/Xóa</td>
     </tr>
     <tr>
-      <td scope="row">Mua IP 15</td>
-      <td>35 000 000</td>
+      <td scope="row">Con Cái</td>
+      <td>5 600 000</td>
       <td>14/12/2023 - 13/04/2023</td>
-      <td>
-        <button type="button" data-toggle="modal" class="rs-btn" data-target="#exampleModalCenter">Sửa </button> /
-        <button type="button" data-toggle="modal" class="rs-btn" data-target="#exampleModalCenter">xóa </button>
-        </td>
+      <td>Thẻ</td>
+      <td>Sửa/Xóa</td>
     </tr>
     <tr>
-      <td scope="row">Mua MacBook</td>
-      <td>45 000 000</td>
+      <td scope="row">Sinh Hoạt</td>
+      <td>2 400 000</td>
       <td>14/12/2023 - 13/04/2023</td>
-      <td>
-        <button type="button" data-toggle="modal" class="rs-btn" data-target="#exampleModalCenter">Sửa </button> /
-        <button type="button" data-toggle="modal" class="rs-btn" data-target="#exampleModalCenter">xóa </button>
-        </td>
+      <td>Thẻ</td>
+      <td>Sửa/Xóa</td>
     </tr>
     <tr>
-      <td scope="row">Đi Hà Nội</td>
-      <td>5 000 000</td>
+      <td scope="row">Du Lịch</td>
+      <td>3 400 000</td>
       <td>14/12/2023 - 13/04/2023</td>
-      <td>
-        <button type="button" data-toggle="modal" class="rs-btn" data-target="#exampleModalCenter">Sửa </button> /
-        <button type="button" data-toggle="modal" class="rs-btn" data-target="#exampleModalCenter">xóa </button>
-        </td>
+      <td>Thẻ</td>
+      <td>Sửa/Xóa</td>
     </tr>
     <tr>
-      <td scope="row">Mua Nhà</td>
-      <td>2 445 000 000</td>
+      <td scope="row">Thuê Nhà</td>
+      <td>45 005 000 000</td>
       <td>14/12/2023 - 13/04/2023</td>
-      <td>
-        <button type="button" data-toggle="modal" class="rs-btn" data-target="#exampleModalCenter">Sửa </button>/
-        <button type="button" data-toggle="modal" class="rs-btn" data-target="#exampleModalCenter">xóa </button>
-        </td>
+      <td>Thẻ </td>
+      <td>Sửa/Xóa</td>
     </tr>
   </tbody>
 </table>
@@ -121,27 +111,6 @@
         <button type="button" class="btn btn-outline-info">Lưu</button>
         </div>
         </section>
-
-        <!-- Modal Sua -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                ...
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-            </div>
-        </div>
-        </div>
 
         </div>
         <?php include '../footer.php'; ?>
